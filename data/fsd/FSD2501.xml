@@ -1,0 +1,3559 @@
+<?xml version="1.0"?>
+<!DOCTYPE codeBook  SYSTEM "http://www.icpsr.umich.edu/DDI/Version2-0.dtd">
+<codeBook xml:lang="fi">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>DDI-kuvailu: Nuorisobarometri 2009: 50-55-vuotiaiden vertailuaineisto</titl>
+        <parTitl xml:lang="en">DDI description: Finnish Youth Survey 2009: Comparative Sample of 50-55-Year-Olds</parTitl>
+        <IDNo agency="FSD">2501</IDNo>
+      </titlStmt>
+      <prodStmt>
+        <producer abbr="FSD">Yhteiskuntatieteellinen tietoarkisto</producer>
+        <copyright>Yhteiskuntatieteellinen tietoarkisto</copyright>
+        <prodDate date="2009-12-01"/>
+        <prodPlac>Yhteiskuntatieteellinen tietoarkisto</prodPlac>
+      </prodStmt>
+      <biblCit format="MRDF">Nuorisobarometri 2009 : 50-55-vuotiaiden kysely [koodikirja]. Tampere : Yhteiskuntatieteellinen tietoarkisto [tuottaja ja jakaja], 2012.</biblCit>
+      <holdings location="Yhteiskuntatieteellinen tietoarkisto FSD" URI="http://www.fsd.uta.fi/aineistot/luettelo/FSD2501/">Yhteiskuntatieteellinen tietoarkisto FSD</holdings>
+    </citation>
+    <notes xml:lang="fi">FSD:n aineistokuvailut (FSD metadata records), jonka tekijä on Suomen yhteiskuntatieteellinen tietoarkisto (Finnish Social Science Data Archive), on lisensoitu Creative Commons Nimeä-Epäkaupallinen 1.0 Suomi lisenssillä.</notes>
+    <notes xml:lang="sv">FSD:n aineistokuvailut (FSD metadata records) av Suomen yhteiskuntatieteellinen tietoarkisto (Finlands samhällsvetenskapliga dataarkiv) är licensierad under a Creative Commons Erkännande-IckeKommersiell 1.0 Finland License.</notes>
+    <notes xml:lang="en">FSD:n aineistokuvailut (FSD metadata records) by Suomen yhteiskuntatieteellinen tietoarkisto (Finnish Social Science Data Archive) is licensed under a Creative Commons Attribution-NonCommercial 1.0 Finland License.</notes>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Nuorisobarometri 2009: 50-55-vuotiaiden vertailuaineisto</titl>
+        <parTitl xml:lang="en">Finnish Youth Survey 2009: Comparative Sample of 50-55-Year-Olds</parTitl>
+        <IDNo agency="FSD">2501</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Opetusministeriö. Nuorisoasiain neuvottelukunta (NUORA)</AuthEnty>
+        <AuthEnty>Nuorisotutkimusseura. Nuorisotutkimusverkosto</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer>Opetusministeriö. Nuorisoasiain neuvottelukunta (NUORA)</producer>
+        <producer>Nuorisotutkimusseura. Nuorisotutkimusverkosto</producer>
+        <copyright>FSD:n ja aineiston luovuttajan tekemän sopimuksen mukaisesti.</copyright>
+      </prodStmt>
+      <distStmt>
+        <distrbtr abbr="FSD" URI="http://www.fsd.uta.fi/">Yhteiskuntatieteellinen tietoarkisto</distrbtr>
+        <depDate date="2009-11-13"/>
+      </distStmt>
+      <serStmt URI="http://www.fsd.uta.fi/fi/aineistot/luettelo/sarjat.html#nuobaro">
+        <serName abbr="nuobaro">Nuorisobarometrit</serName>
+        <serInfo>
+          <p>Nuorisoasiain neuvottelukunta (Nuora) on teettänyt vuodesta 1994 alkaen nuorisobarometreja. Niissä kartoitetaan säännöllisesti 15-29-vuotiaiden nuorten asenteiden ja odotusten kehittymistä. Barometreissa on sekä ajankohtaisia että toistuvia kysymyksiä, joiden avulla voidaan seurata pidemmän aikavälin asennemuutoksia. Barometreissa on selvitetty muun muassa nuorten koulutukseen, työhön, sosiaaliturvaan, kuluttamiseen, huumeisiin, yhteiskunnalliseen vaikuttamiseen ja kansalaisaktiivisuuteen liittyviä asenteita.</p>
+        </serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2009-12-01">1.0</version>
+      </verStmt>
+      <biblCit>Nuorisobarometri 2009: 50-55-vuotiaiden vertailuaineisto [elektroninen aineisto]. FSD2501, versio 1.0 (2009-12-01). Helsinki: Innolink Research [aineistonkeruu], 2009. Helsinki: Opetusministeriö. Nuorisoasiain neuvottelukunta (NUORA) &amp; Helsinki: Nuorisotutkimusseura. Nuorisotutkimusverkosto [tuottajat]. Tampere: Yhteiskuntatieteellinen tietoarkisto [jakaja], 2009.</biblCit>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <keyword vocab="YSA" vocabURI="http://vesa.lib.helsinki.fi/">keski-ikäiset</keyword>
+        <keyword vocab="YSA" vocabURI="http://vesa.lib.helsinki.fi/">arvot</keyword>
+        <keyword vocab="YSA" vocabURI="http://vesa.lib.helsinki.fi/">aikuisuus</keyword>
+        <keyword vocab="YSA" vocabURI="http://vesa.lib.helsinki.fi/">taide</keyword>
+        <keyword vocab="YSA" vocabURI="http://vesa.lib.helsinki.fi/">kulttuuri</keyword>
+        <keyword vocab="YSA" vocabURI="http://vesa.lib.helsinki.fi/">kulttuuripalvelut</keyword>
+        <topcClas vocab="FSD" vocabURI="http://www.fsd.uta.fi/aineistot/arkistointi/FSD_topcClas.html">kulttuurintutkimus</topcClas>
+        <topcClas vocab="FSD" vocabURI="http://www.fsd.uta.fi/aineistot/arkistointi/FSD_topcClas.html">sosiologia</topcClas>
+        <topcClas vocab="CESSDA">kulttuuritoiminta ja -osallistuminen</topcClas>
+        <topcClas vocab="CESSDA">sosiaalinen käyttäytyminen ja asenteet</topcClas>
+      </subject>
+      <abstract>
+        <p>Vuoden 2009 Nuorisobarometrin yhteydessä kerättiin vertailuaineisto 50-55-vuotiaiden ikäryhmästä. Vastaajilta kysyttiin, kuinka samanlaisiksi tai erilaisiksi he arvioivat joko omien lastensa tai yleensä nuorten mielipiteet erilaisista asioista, kuten taide, uskonto, koulutus ja työnteko. He kertoivat myös, milloin ihminen heidän mielestään on aikuinen. Vastausvaihtoehtoja olivat muun muassa täysi-ikäisyys, vanhempien luota pois muuttaminen ja avo- tai avioliitto. Vastaajat kertoivat kuinka samaa tai eri mieltä he ovat erilaisten väittämien kanssa, jotka liittyivät esimerkiksi kansainvälistymiseen, kulttuuripalveluihin ja taiteeseen. Lopuksi vastaajat kertoivat mielipiteensä erilaisista taiteen merkitystä koskevista väittämistä.</p>
+        <p>Taustamuuttujia olivat mm. sukupuoli, ikä, ammattiasema ja koulutustaso.</p>
+      </abstract>
+      <sumDscr>
+        <timePrd date="2009-00-00" event="single"/>
+        <collDate date="2009-04-00" event="start"/>
+        <collDate date="2009-05-00" event="end"/>
+        <nation abbr="FI">Suomi</nation>
+        <geogCover>Suomi</geogCover>
+        <anlyUnit>Henkilö
+          <concept>Individual</concept>
+        </anlyUnit>
+        <universe clusion="I">50-55-vuotiaat suomalaiset</universe>
+        <universe clusion="E">ahvenanmaalaiset</universe>
+        <dataKind>Kvantitatiivinen</dataKind>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <timeMeth>Pitkittäisaineisto: trendi/toistuva poikkileikkausaineisto
+          <concept>Longitudinal.TrendRepeatedCrossSection</concept>
+        </timeMeth>
+        <dataCollector>Innolink Research Oy</dataCollector>
+        <sampProc>
+          <p>Tutkimuksessa haastateltiin 200 50-55-vuotiasta suomalaista.</p>
+        </sampProc>
+        <collMode>Puhelinkysely</collMode>
+        <resInstru>Strukturoitu kyselylomake</resInstru>
+        <weight>Aineisto ei sisällä painomuuttujia.</weight>
+      </dataColl>
+      <anlyInfo>
+        <dataAppr>Tarkemmat otantatiedot eivät toistaiseksi ole saatavilla.</dataAppr>
+      </anlyInfo>
+      <stdyClas type="A">Aineisto on kuvailtu mahdollisimman yksityiskohtaisesti suomeksi ja englanniksi. Datatiedostosta on tarkistettu muun muassa muuttujien jakaumat, filtterimuuttujat, puuttuvat tiedot, muuttujien selitteet ja arvojen selitteet. Tarvittaessa datatiedosto on anonymisoitu.</stdyClas>
+    </method>
+    <dataAccs>
+      <setAvail>
+        <accsPlac URI="http://www.fsd.uta.fi/">Yhteiskuntatieteellinen tietoarkisto</accsPlac>
+        <collSize>Data: suomenkielinen SPSS portable -tiedosto. Data saatavilla myös muissa tiedostoformaateissa.</collSize>
+      </setAvail>
+      <useStmt>
+        <restrctn>Aineistoa luovutetaan tieteelliseen tutkimus- ja opetuskäyttöön; FSD:n lupamenettely.</restrctn>
+        <citReq>Tutkimusaineisto on merkittävä lähdeviitteisiin kaikissa julkaisuissa, joissa aineistoa tai sen osaa käytetään. Tietoarkiston antaman malliviittaustiedon voi merkitä lähdeluetteloon sellaisenaan tai sitä voi muokata julkaisun käytäntöjen mukaisesti.</citReq>
+        <deposReq>Arkistolle tulee lähettää tiedot julkaisuista, joissa aineiston kopiota tai siitä luvallisesti otettuja kopioita on hyödynnetty.</deposReq>
+        <disclaimer>Aineiston arkistoon luovuttajilla ja arkistolla ei ole vastuuta aineiston jatkokäytössä tuotetuista tuloksista ja tulkinnoista.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <relMat>Myllyniemi, Sami (2009). Taidekohtia. Nuorisobarometri 2009. Helsinki : Opetusministeriö. Nuorisoasiain neuvottelukunta (Nuora), julkaisuja; 41 &amp; Helsinki: Nuorisotutkimusverkosto/Nuorisotutkimusseura, julkaisuja; 97.</relMat>
+      <relStdy>FSD2484 Nuorisobarometri 2009</relStdy>
+      <relPubl>Myllyniemi, Sami (2009). Taidekohtia. Nuorisobarometri 2009. Helsinki: Opetusministeriö. Nuorisoasiain neuvottelukunta (Nuora), julkaisuja; 41 &amp; Helsinki: Nuorisotutkimusverkosto/Nuorisotutkimusseura, julkaisuja; 97.</relPubl>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr>
+    <fileTxt>
+      <fileName ID="F1">daF2501.por</fileName>
+      <dimensns>
+        <caseQnty>200</caseQnty>
+        <varQnty>78</varQnty>
+      </dimensns>
+      <fileType>SPSS Portable</fileType>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <varGrp var="BV7_1 BV7_2 BV7_3">
+      <txt>Minkä ikäisiä lapsesi ovat? (kunkin lapsen ikä vuosina)</txt>
+    </varGrp>
+     <varGrp var="Q1A_1 Q1A_2 Q1A_3 Q1A_4 Q1A_5 Q1A_6 Q1A_7 Q1A_8 Q1A_9 Q1A_10 Q1A_11 Q1A_12 Q1A_13 Q1A_14 Q1A_15">
+      <txt>JOS ON LAPSIA (bv6 = 1) Kuinka samanlaiseksi arvioit lastesi mielipiteet verrattuna omiisi seuraavissa asioissa?</txt>
+    </varGrp>
+     <varGrp var="Q1B_1 Q1B_2 Q1B_3 Q1B_4 Q1B_5 Q1B_6 Q1B_7 Q1B_8 Q1B_9 Q1B_10 Q1B_11 Q1B_12 Q1B_13 Q1B_14 Q1B_15">
+      <txt>JOS EI OLE LAPSIA (bv6 = 2) Kuinka samanlaiseksi arvioit nuorten mielipiteet verrattuna omiisi seuraavissa asioissa?</txt>
+    </varGrp>
+     <varGrp var="Q2_1 Q2_2 Q2_3 Q2_4 Q2_5 Q2_6 Q2_7 Q2_8 Q2_9 Q2_10">
+      <txt>Milloin ihminen on mielestäsi aikuinen?</txt>
+    </varGrp>
+     <varGrp var="Q3_1 Q3_2 Q3_3 Q3_4 Q3_5 Q3_6 Q3_7 Q3_8 Q3_9 Q3_10 Q3_11 Q3_12 Q3_13">
+      <txt>Oletko samaa vai eri mieltä seuraavien väitteiden suhteen</txt>
+    </varGrp>
+    <varGrp var="Q4_1 Q4_2 Q4_3 Q4_4 Q4_5 Q4_6 Q4_7 Q4_8 Q4_9 Q4_10 Q4_11">
+      <txt>Mitkä seuraavista väitteistä sopivat kuvaamaan taiteen merkitystä?</txt>
+    </varGrp>
+    <var files="F1" name="FSD_NO" intrvl="contin" dcml="0" ID="FSD_NO">
+      <labl level="variable">[fsd_no] Aineistonumero (lisätty FSD:ssä)</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Aineistonumero (lisätty FSD:ssä)</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="2501" min="2501"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">2501</sumStat>
+      <sumStat type="max">2501</sumStat>
+      <sumStat type="mean">2501.00</sumStat>
+      <sumStat type="stdev">.000</sumStat>
+      <notes/>
+    </var>
+    <var files="F1" name="FSD_VR" intrvl="contin" dcml="1" ID="FSD_VR">
+      <labl level="variable">[fsd_vr] Aineistoversio (lisätty FSD:ssä)</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Aineistoversio (lisätty FSD:ssä)</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="1.0" min="1.0"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1.0</sumStat>
+      <sumStat type="max">1.0</sumStat>
+      <sumStat type="mean">1.000</sumStat>
+      <sumStat type="stdev">.0000</sumStat>
+      <notes/>
+    </var>
+    <var files="F1" name="FSD_PRO" intrvl="discrete" dcml="0" ID="FSD_PRO">
+      <labl level="variable">[fsd_pro] Käsittelytaso (lisätty FSD:ssä)</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Käsittelytaso (lisätty FSD:ssä)</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="3" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">1</sumStat>
+      <sumStat type="mean">1.00</sumStat>
+      <sumStat type="stdev">.000</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">A (ks. koodikirja)</labl>
+        <catStat>200</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">B (ks. koodikirja)</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">C (dataa ei ole tarkastettu FSD:ssä)</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="FSD_ID" intrvl="contin" dcml="0" ID="FSD_ID">
+      <labl level="variable">[fsd_id] Havaintotunnus (lisätty FSD:ssä)</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Havaintotunnus (lisätty FSD:ssä)</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="200" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">200</sumStat>
+      <sumStat type="mean">100.50</sumStat>
+      <sumStat type="stdev">57.879</sumStat>
+      <notes/>
+    </var>
+    <var files="F1" name="LNO" intrvl="contin" dcml="0" ID="LNO">
+      <labl level="variable">[lno] Lomakenumero</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Lomakenumero</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="2100" min="1901"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1901</sumStat>
+      <sumStat type="max">2100</sumStat>
+      <sumStat type="mean">2000.50</sumStat>
+      <sumStat type="stdev">57.879</sumStat>
+      <notes/>
+    </var>
+    <var files="F1" name="BV1" intrvl="discrete" dcml="0" ID="BV1">
+      <labl level="variable">[bv1] Sukupuoli</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Sukupuoli</qstnLit>
+        <postQTxt/>
+        <ivuInstr>Merkitään kysymättä</ivuInstr>
+      </qstn>
+      <valrng>
+        <range max="2" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">2</sumStat>
+      <sumStat type="mean">1.50</sumStat>
+      <sumStat type="stdev">.501</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Nainen</labl>
+        <catStat>100</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Mies</labl>
+        <catStat>100</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="BV2" intrvl="contin" dcml="0" ID="BV2">
+      <labl level="variable">[bv2] Ikä</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Aluksi kysyisin ikääsi?</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="55" min="50"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">50</sumStat>
+      <sumStat type="max">55</sumStat>
+      <sumStat type="mean">53.10</sumStat>
+      <sumStat type="stdev">1.641</sumStat>
+      <notes/>
+    </var>
+    <var files="F1" name="BV3" intrvl="contin" dcml="0" ID="BV3">
+      <labl level="variable">[bv3] Kunta</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Kunta</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="977" min="10"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">10</sumStat>
+      <sumStat type="max">977</sumStat>
+      <sumStat type="mean">445.60</sumStat>
+      <sumStat type="stdev">267.099</sumStat>
+      <notes/>
+    </var>
+    <var files="F1" name="BV4" intrvl="discrete" dcml="0" ID="BV4">
+      <labl level="variable">[bv4] Mikä on tällä hetkellä pääasiallinen toimintasi?</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Mikä on tällä hetkellä pääasiallinen toimintasi? Oletko...</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="4" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">4</sumStat>
+      <sumStat type="mean">2.08</sumStat>
+      <sumStat type="stdev">1.109</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Palkkatyössä</labl>
+        <catStat>78</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Yrittäjä</labl>
+        <catStat>65</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Työtön tai lomautettu</labl>
+        <catStat>20</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Eläkeläinen</labl>
+        <catStat>37</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="BV5" intrvl="discrete" dcml="0" ID="BV5">
+      <labl level="variable">[bv5] Mikä on koulutustasosi?</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Mikä on koulutustasosi?</qstnLit>
+        <postQTxt/>
+        <ivuInstr>Luettele (merkitse ylin)</ivuInstr>
+      </qstn>
+      <valrng>
+        <range max="4" min="1"/>
+      </valrng>
+      <sumStat type="vald">196</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">4</sumStat>
+      <sumStat type="mean">1.52</sumStat>
+      <sumStat type="stdev">.850</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Ammatillinen perustutkinto</labl>
+        <catStat>137</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Opisto tai ylioppilastutkinto</labl>
+        <catStat>21</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Korkeakoulututkinto</labl>
+        <catStat>34</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Ei tutkintoa</labl>
+        <catStat>4</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>4</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="BV6" intrvl="discrete" dcml="0" ID="BV6">
+      <labl level="variable">[bv6] Onko sinulla lapsia?</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Onko sinulla lapsia?</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="2" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">2</sumStat>
+      <sumStat type="mean">1.25</sumStat>
+      <sumStat type="stdev">.434</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Kyllä</labl>
+        <catStat>150</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Ei</labl>
+        <catStat>50</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="BV7_1" intrvl="contin" dcml="0" ID="BV7_1">
+      <labl level="variable">[bv7_1] Minkä ikäisiä lapsesi ovat: 1. lapsi?</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>1. lapsi?</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="35" min="3"/>
+      </valrng>
+      <sumStat type="vald">150</sumStat>
+      <sumStat type="min">3</sumStat>
+      <sumStat type="max">35</sumStat>
+      <sumStat type="mean">23.92</sumStat>
+      <sumStat type="stdev">5.411</sumStat>
+      <notes/>
+    </var>
+    <var files="F1" name="BV7_2" intrvl="contin" dcml="0" ID="BV7_2">
+      <labl level="variable">[bv7_2] Minkä ikäisiä lapsesi ovat: 2. lapsi?</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>2. lapsi?</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="33" min="11"/>
+      </valrng>
+      <sumStat type="vald">95</sumStat>
+      <sumStat type="min">11</sumStat>
+      <sumStat type="max">33</sumStat>
+      <sumStat type="mean">25.76</sumStat>
+      <sumStat type="stdev">4.507</sumStat>
+      <notes/>
+    </var>
+    <var files="F1" name="BV7_3" intrvl="contin" dcml="0" ID="BV7_3">
+      <labl level="variable">[bv7_3] Minkä ikäisiä lapsesi ovat: 3. lapsi?</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>3. lapsi?</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="33" min="17"/>
+      </valrng>
+      <sumStat type="vald">10</sumStat>
+      <sumStat type="min">17</sumStat>
+      <sumStat type="max">33</sumStat>
+      <sumStat type="mean">27.60</sumStat>
+      <sumStat type="stdev">4.502</sumStat>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1A_1" intrvl="discrete" dcml="0" ID="Q1A_1">
+      <labl level="variable">[q1a_1] Kuinka samanlaiseksi arvioit lastesi mielipiteet verrattuna omiisi seuraavissa asioissa: Taide</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Taide</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">150</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">19.99</sumStat>
+      <sumStat type="stdev">37.149</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>12</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>39</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>52</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>20</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>27</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>50</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1A_2" intrvl="discrete" dcml="0" ID="Q1A_2">
+      <labl level="variable">[q1a_2] Kuinka samanlaiseksi arvioit lastesi mielipiteet verrattuna omiisi seuraavissa asioissa: Uskonto</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Uskonto</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">150</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">18.86</sumStat>
+      <sumStat type="stdev">35.966</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>4</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>34</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>66</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>21</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>25</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>50</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1A_3" intrvl="discrete" dcml="0" ID="Q1A_3">
+      <labl level="variable">[q1a_3] Kuinka samanlaiseksi arvioit lastesi mielipiteet verrattuna omiisi seuraavissa asioissa: Koulutus ja työnteko</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Koulutus ja työnteko</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">150</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">10.41</sumStat>
+      <sumStat type="stdev">25.013</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>1</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>14</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>52</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>72</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>11</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>50</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1A_4" intrvl="discrete" dcml="0" ID="Q1A_4">
+      <labl level="variable">[q1a_4] Kuinka samanlaiseksi arvioit lastesi mielipiteet verrattuna omiisi seuraavissa asioissa: Vapaa-ajan viettotavat</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Vapaa-ajan viettotavat</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">150</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">3.56</sumStat>
+      <sumStat type="stdev">7.902</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>19</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>17</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>70</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>43</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>1</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>50</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1A_5" intrvl="discrete" dcml="0" ID="Q1A_5">
+      <labl level="variable">[q1a_5] Kuinka samanlaiseksi arvioit lastesi mielipiteet verrattuna omiisi seuraavissa asioissa: Sukupuolten välinen tasa-arvo</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Sukupuolten välinen tasa-arvo</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">150</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">22.93</sumStat>
+      <sumStat type="stdev">38.964</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>2</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>27</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>46</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>44</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>31</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>50</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1A_6" intrvl="discrete" dcml="0" ID="Q1A_6">
+      <labl level="variable">[q1a_6] Kuinka samanlaiseksi arvioit lastesi mielipiteet verrattuna omiisi seuraavissa asioissa: Sukupolvien välinen tasa-arvo</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Sukupolvien välinen tasa-arvo</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">150</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">33.66</sumStat>
+      <sumStat type="stdev">44.978</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>3</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>29</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>44</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>26</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>48</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>50</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1A_7" intrvl="discrete" dcml="0" ID="Q1A_7">
+      <labl level="variable">[q1a_7] Kuinka samanlaiseksi arvioit lastesi mielipiteet verrattuna omiisi seuraavissa asioissa: Seksi</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Seksi</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">150</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">25.19</sumStat>
+      <sumStat type="stdev">40.859</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>6</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>30</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>68</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>11</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>35</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>50</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1A_8" intrvl="discrete" dcml="0" ID="Q1A_8">
+      <labl level="variable">[q1a_8] Kuinka samanlaiseksi arvioit lastesi mielipiteet verrattuna omiisi seuraavissa asioissa: Alkoholi</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Alkoholi</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">150</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">16.19</sumStat>
+      <sumStat type="stdev">33.531</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>9</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>30</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>80</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>10</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>21</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>50</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1A_9" intrvl="discrete" dcml="0" ID="Q1A_9">
+      <labl level="variable">[q1a_9] Kuinka samanlaiseksi arvioit lastesi mielipiteet verrattuna omiisi seuraavissa asioissa: Huumeet</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Huumeet</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">150</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">15.71</sumStat>
+      <sumStat type="stdev">32.789</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>12</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>27</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>53</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>38</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>20</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>50</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1A_10" intrvl="discrete" dcml="0" ID="Q1A_10">
+      <labl level="variable">[q1a_10] Kuinka samanlaiseksi arvioit lastesi mielipiteet verrattuna omiisi seuraavissa asioissa: Internetin käyttö</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Internetin käyttö</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">150</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">12.62</sumStat>
+      <sumStat type="stdev">29.961</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>28</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>50</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>43</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>13</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>16</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>50</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1A_11" intrvl="discrete" dcml="0" ID="Q1A_11">
+      <labl level="variable">[q1a_11] Kuinka samanlaiseksi arvioit lastesi mielipiteet verrattuna omiisi seuraavissa asioissa: Politiikka</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Politiikka</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">150</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">20.07</sumStat>
+      <sumStat type="stdev">37.946</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>43</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>47</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>26</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>6</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>28</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>50</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1A_12" intrvl="discrete" dcml="0" ID="Q1A_12">
+      <labl level="variable">[q1a_12] Kuinka samanlaiseksi arvioit lastesi mielipiteet verrattuna omiisi seuraavissa asioissa: Suomalaisuus</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Suomalaisuus</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">150</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">8.51</sumStat>
+      <sumStat type="stdev">21.560</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>5</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>2</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>64</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>71</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>8</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>50</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1A_13" intrvl="discrete" dcml="0" ID="Q1A_13">
+      <labl level="variable">[q1a_13] Kuinka samanlaiseksi arvioit lastesi mielipiteet verrattuna omiisi seuraavissa asioissa: Kansainvälisyys</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Kansainvälisyys</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">150</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">6.84</sumStat>
+      <sumStat type="stdev">18.892</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>6</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>30</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>66</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>42</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>6</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>50</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1A_14" intrvl="discrete" dcml="0" ID="Q1A_14">
+      <labl level="variable">[q1a_14] Kuinka samanlaiseksi arvioit lastesi mielipiteet verrattuna omiisi seuraavissa asioissa: Maahanmuutto</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Maahanmuutto</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">150</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">8.08</sumStat>
+      <sumStat type="stdev">21.668</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>6</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>34</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>62</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>40</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>8</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>50</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1A_15" intrvl="discrete" dcml="0" ID="Q1A_15">
+      <labl level="variable">[q1a_15] Kuinka samanlaiseksi arvioit lastesi mielipiteet verrattuna omiisi seuraavissa asioissa: Monikulttuurisuus</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Monikulttuurisuus</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">150</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">8.05</sumStat>
+      <sumStat type="stdev">21.675</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>6</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>33</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>69</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>34</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>8</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>50</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1B_1" intrvl="discrete" dcml="0" ID="Q1B_1">
+      <labl level="variable">[q1b_1] Kuinka samanlaiseksi arvioit nuorten mielipiteet verrattuna omiisi seuraavissa asioissa: Taide</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Taide</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">50</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">21.64</sumStat>
+      <sumStat type="stdev">39.080</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>8</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>14</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>16</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>2</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>10</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>150</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1B_2" intrvl="discrete" dcml="0" ID="Q1B_2">
+      <labl level="variable">[q1b_2] Kuinka samanlaiseksi arvioit nuorten mielipiteet verrattuna omiisi seuraavissa asioissa: Uskonto</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Uskonto</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">50</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">15.60</sumStat>
+      <sumStat type="stdev">33.996</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>8</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>26</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>9</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>7</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>150</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1B_3" intrvl="discrete" dcml="0" ID="Q1B_3">
+      <labl level="variable">[q1b_3] Kuinka samanlaiseksi arvioit nuorten mielipiteet verrattuna omiisi seuraavissa asioissa: Koulutus ja työnteko</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Koulutus ja työnteko</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">50</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">4.50</sumStat>
+      <sumStat type="stdev">13.665</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>6</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>16</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>20</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>7</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>1</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>150</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1B_4" intrvl="discrete" dcml="0" ID="Q1B_4">
+      <labl level="variable">[q1b_4] Kuinka samanlaiseksi arvioit nuorten mielipiteet verrattuna omiisi seuraavissa asioissa: Vapaa-ajan viettotavat</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Vapaa-ajan viettotavat</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">50</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">4</sumStat>
+      <sumStat type="mean">2.34</sumStat>
+      <sumStat type="stdev">.772</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>6</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>24</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>17</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>3</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>150</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1B_5" intrvl="discrete" dcml="0" ID="Q1B_5">
+      <labl level="variable">[q1b_5] Kuinka samanlaiseksi arvioit nuorten mielipiteet verrattuna omiisi seuraavissa asioissa: Sukupuolten välinen tasa-arvo</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Sukupuolten välinen tasa-arvo</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">50</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">16.00</sumStat>
+      <sumStat type="stdev">33.837</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>5</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>16</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>18</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>4</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>7</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>150</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1B_6" intrvl="discrete" dcml="0" ID="Q1B_6">
+      <labl level="variable">[q1b_6] Kuinka samanlaiseksi arvioit nuorten mielipiteet verrattuna omiisi seuraavissa asioissa: Sukupolvien välinen tasa-arvo</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Sukupolvien välinen tasa-arvo</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">50</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">17.84</sumStat>
+      <sumStat type="stdev">35.789</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>5</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>20</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>13</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>4</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>8</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>150</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1B_7" intrvl="discrete" dcml="0" ID="Q1B_7">
+      <labl level="variable">[q1b_7] Kuinka samanlaiseksi arvioit nuorten mielipiteet verrattuna omiisi seuraavissa asioissa: Seksi</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Seksi</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">50</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">15.88</sumStat>
+      <sumStat type="stdev">33.886</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>6</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>20</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>13</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>4</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>7</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>150</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1B_8" intrvl="discrete" dcml="0" ID="Q1B_8">
+      <labl level="variable">[q1b_8] Kuinka samanlaiseksi arvioit nuorten mielipiteet verrattuna omiisi seuraavissa asioissa: Alkoholi</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Alkoholi</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">50</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">8.06</sumStat>
+      <sumStat type="stdev">23.222</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>8</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>22</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>14</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>3</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>3</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>150</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1B_9" intrvl="discrete" dcml="0" ID="Q1B_9">
+      <labl level="variable">[q1b_9] Kuinka samanlaiseksi arvioit nuorten mielipiteet verrattuna omiisi seuraavissa asioissa: Huumeet</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Huumeet</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">48</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">8.06</sumStat>
+      <sumStat type="stdev">23.744</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>14</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>20</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>8</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>3</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>3</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>152</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1B_10" intrvl="discrete" dcml="0" ID="Q1B_10">
+      <labl level="variable">[q1b_10] Kuinka samanlaiseksi arvioit nuorten mielipiteet verrattuna omiisi seuraavissa asioissa: Internetin käyttö</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Internetin käyttö</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">48</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">6.06</sumStat>
+      <sumStat type="stdev">19.597</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>11</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>24</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>10</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>1</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>2</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>152</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1B_11" intrvl="discrete" dcml="0" ID="Q1B_11">
+      <labl level="variable">[q1b_11] Kuinka samanlaiseksi arvioit nuorten mielipiteet verrattuna omiisi seuraavissa asioissa: Politiikka</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Politiikka</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">50</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">9.40</sumStat>
+      <sumStat type="stdev">26.701</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>26</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>13</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>6</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>1</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>4</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>150</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1B_12" intrvl="discrete" dcml="0" ID="Q1B_12">
+      <labl level="variable">[q1b_12] Kuinka samanlaiseksi arvioit nuorten mielipiteet verrattuna omiisi seuraavissa asioissa: Suomalaisuus</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Suomalaisuus</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">50</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">4.84</sumStat>
+      <sumStat type="stdev">13.604</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>2</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>7</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>33</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>7</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>1</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>150</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1B_13" intrvl="discrete" dcml="0" ID="Q1B_13">
+      <labl level="variable">[q1b_13] Kuinka samanlaiseksi arvioit nuorten mielipiteet verrattuna omiisi seuraavissa asioissa: Kansainvälisyys</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Kansainvälisyys</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">50</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">6.30</sumStat>
+      <sumStat type="stdev">19.128</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>3</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>25</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>16</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>4</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>2</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>150</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1B_14" intrvl="discrete" dcml="0" ID="Q1B_14">
+      <labl level="variable">[q1b_14] Kuinka samanlaiseksi arvioit nuorten mielipiteet verrattuna omiisi seuraavissa asioissa: Maahanmuutto</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Maahanmuutto</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">50</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">9.90</sumStat>
+      <sumStat type="stdev">26.551</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>7</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>28</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>8</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>3</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>4</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>150</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q1B_15" intrvl="discrete" dcml="0" ID="Q1B_15">
+      <labl level="variable">[q1b_15] Kuinka samanlaiseksi arvioit nuorten mielipiteet verrattuna omiisi seuraavissa asioissa: Monikulttuurisuus</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Monikulttuurisuus</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">50</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">9.80</sumStat>
+      <sumStat type="stdev">26.579</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin erilaiset</labl>
+        <catStat>8</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin erilaiset</labl>
+        <catStat>30</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Jokseenkin samanlaiset</labl>
+        <catStat>6</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Täysin samanlaiset</labl>
+        <catStat>2</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>4</catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>SYSMISS</catValu>
+        <labl level="category"/>
+        <catStat>150</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q2_1" intrvl="discrete" dcml="0" ID="Q2_1">
+      <labl level="variable">[q2_1] Milloin ihminen on mielestäsi aikuinen: Kun hän on virallisesti täysi-ikäinen</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Kun hän on virallisesti täysi-ikäinen</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">2.84</sumStat>
+      <sumStat type="stdev">6.950</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>64</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>56</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>39</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>24</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>16</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>1</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q2_2" intrvl="discrete" dcml="0" ID="Q2_2">
+      <labl level="variable">[q2_2] Milloin ihminen on mielestäsi aikuinen: Kun hän on muuttanut vanhempiensa luota</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Kun hän on muuttanut vanhempiensa luota</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">3.24</sumStat>
+      <sumStat type="stdev">9.703</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>61</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>44</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>74</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>17</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>2</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>2</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q2_3" intrvl="discrete" dcml="0" ID="Q2_3">
+      <labl level="variable">[q2_3] Milloin ihminen on mielestäsi aikuinen: Kun hän on avo- tai avioliitossa</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Kun hän on avo- tai avioliitossa</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">4.43</sumStat>
+      <sumStat type="stdev">11.741</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>20</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>33</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>78</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>62</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>4</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>3</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q2_4" intrvl="discrete" dcml="0" ID="Q2_4">
+      <labl level="variable">[q2_4] Milloin ihminen on mielestäsi aikuinen: Kun hänellä on lapsia</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Kun hänellä on lapsia</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">5.19</sumStat>
+      <sumStat type="stdev">13.478</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>15</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>25</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>73</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>57</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>26</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>4</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q2_5" intrvl="discrete" dcml="0" ID="Q2_5">
+      <labl level="variable">[q2_5] Milloin ihminen on mielestäsi aikuinen: Kun hän tietää mitä tahtoo elämältään</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Kun hän tietää mitä tahtoo elämältään</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">4.62</sumStat>
+      <sumStat type="stdev">9.562</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>5</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>18</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>59</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>73</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>43</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>2</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q2_6" intrvl="discrete" dcml="0" ID="Q2_6">
+      <labl level="variable">[q2_6] Milloin ihminen on mielestäsi aikuinen: Kun hän pystyy elättämään itsensä</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Kun hän pystyy elättämään itsensä</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">5.15</sumStat>
+      <sumStat type="stdev">11.663</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>6</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>24</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>49</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>58</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>60</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>3</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q2_7" intrvl="discrete" dcml="0" ID="Q2_7">
+      <labl level="variable">[q2_7] Milloin ihminen on mielestäsi aikuinen: Kun hän päättänyt opintonsa</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Kun hän päättänyt opintonsa</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">3.62</sumStat>
+      <sumStat type="stdev">11.843</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>66</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>50</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>68</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>8</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>5</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>3</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q2_8" intrvl="discrete" dcml="0" ID="Q2_8">
+      <labl level="variable">[q2_8] Milloin ihminen on mielestäsi aikuinen: Kun hän on löytänyt identiteettinsä</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Kun hän on löytänyt identiteettinsä</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">7.05</sumStat>
+      <sumStat type="stdev">18.843</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>8</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>31</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>89</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>40</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>24</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>8</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q2_9" intrvl="discrete" dcml="0" ID="Q2_9">
+      <labl level="variable">[q2_9] Milloin ihminen on mielestäsi aikuinen: Kun hän ottaa vastuun omista päätöksistään</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Kun hän ottaa vastuun omista päätöksistään</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">5.17</sumStat>
+      <sumStat type="stdev">11.647</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>2</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>19</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>53</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>77</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>46</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>3</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q2_10" intrvl="discrete" dcml="0" ID="Q2_10">
+      <labl level="variable">[q2_10] Milloin ihminen on mielestäsi aikuinen: Kun hän itse päättää olla aikuinen</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Kun hän itse päättää olla aikuinen</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">3.59</sumStat>
+      <sumStat type="stdev">11.849</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>71</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>48</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>62</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>12</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>4</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>3</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q3_1" intrvl="discrete" dcml="0" ID="Q3_1">
+      <labl level="variable">[q3_1] Oletko samaa vai eri mieltä seuraavien väitteiden suhteen: Ulkomaalaiset ovat monipuolistaneet suomalaista kulttuuria</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Ulkomaalaiset ovat monipuolistaneet suomalaista kulttuuria</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">7.40</sumStat>
+      <sumStat type="stdev">19.947</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>2</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>40</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>89</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>60</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>9</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q3_2" intrvl="discrete" dcml="0" ID="Q3_2">
+      <labl level="variable">[q3_2] Oletko samaa vai eri mieltä seuraavien väitteiden suhteen: Kansainvälistyvässä maailmassa kulttuuri vahvistaa kansallista identiteettiä</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Kansainvälistyvässä maailmassa kulttuuri vahvistaa kansallista identiteettiä</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">2</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">10.44</sumStat>
+      <sumStat type="stdev">25.289</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>17</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>104</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>64</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>15</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q3_3" intrvl="discrete" dcml="0" ID="Q3_3">
+      <labl level="variable">[q3_3] Oletko samaa vai eri mieltä seuraavien väitteiden suhteen: Ulkomaalaiset ovat monipuolistaneet suomalaista kulttuuria</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Ulkomaalaiset ovat monipuolistaneet suomalaista kulttuuria</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">2</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">6.64</sumStat>
+      <sumStat type="stdev">17.645</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>18</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>102</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>73</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>7</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q3_4" intrvl="discrete" dcml="0" ID="Q3_4">
+      <labl level="variable">[q3_4] Oletko samaa vai eri mieltä seuraavien väitteiden suhteen: Minulla ei riitä aikaa käydä kulttuuritilaisuuksissa (teatteriesitykset, konsertit, näyttelyt yms.)</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Minulla ei riitä aikaa käydä kulttuuritilaisuuksissa (teatteriesitykset, konsertit, näyttelyt yms.)</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">4</sumStat>
+      <sumStat type="mean">2.59</sumStat>
+      <sumStat type="stdev">.870</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>22</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>68</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>81</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>29</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q3_5" intrvl="discrete" dcml="0" ID="Q3_5">
+      <labl level="variable">[q3_5] Oletko samaa vai eri mieltä seuraavien väitteiden suhteen: Kirjastojen palvelut ja kokoelmat vastaavat odotuksiani ja tarpeitani</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Kirjastojen palvelut ja kokoelmat vastaavat odotuksiani ja tarpeitani</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">5.56</sumStat>
+      <sumStat type="stdev">15.015</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>5</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>16</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>116</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>58</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>5</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q3_6" intrvl="discrete" dcml="0" ID="Q3_6">
+      <labl level="variable">[q3_6] Oletko samaa vai eri mieltä seuraavien väitteiden suhteen: Kulttuuripalveluiden (teatteriesitysten, konserttien, näyttelyiden yms.) sisältö vastaa odotuksiani ja tarpeitani</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Kulttuuripalveluiden (teatteriesitysten, konserttien, näyttelyiden yms.) sisältö vastaa odotuksiani ja tarpeitani</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">2</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">5.59</sumStat>
+      <sumStat type="stdev">15.008</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>24</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>109</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>62</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>5</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q3_7" intrvl="discrete" dcml="0" ID="Q3_7">
+      <labl level="variable">[q3_7] Oletko samaa vai eri mieltä seuraavien väitteiden suhteen: Kulttuuripalveluiden (teatteriesitysten, konserttien, näyttelyiden yms.) lippujen hinnat ovat liian korkeita</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Kulttuuripalveluiden (teatteriesitysten, konserttien, näyttelyiden yms.) lippujen hinnat ovat liian korkeita</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">6.13</sumStat>
+      <sumStat type="stdev">17.749</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>15</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>47</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>100</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>31</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>7</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q3_8" intrvl="discrete" dcml="0" ID="Q3_8">
+      <labl level="variable">[q3_8] Oletko samaa vai eri mieltä seuraavien väitteiden suhteen: Peruskoulussa pitäisi olla enemmän taideopetusta</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Peruskoulussa pitäisi olla enemmän taideopetusta</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">2</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">19.02</sumStat>
+      <sumStat type="stdev">35.646</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>12</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>107</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>48</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>33</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q3_9" intrvl="discrete" dcml="0" ID="Q3_9">
+      <labl level="variable">[q3_9] Oletko samaa vai eri mieltä seuraavien väitteiden suhteen: Graffitien tekijöillä pitää olla laillinen paikka tehdä graffiteja</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Graffitien tekijöillä pitää olla laillinen paikka tehdä graffiteja</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">14.57</sumStat>
+      <sumStat type="stdev">31.264</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>6</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>29</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>90</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>51</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>24</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q3_10" intrvl="discrete" dcml="0" ID="Q3_10">
+      <labl level="variable">[q3_10] Oletko samaa vai eri mieltä seuraavien väitteiden suhteen: Graffitit tulee ymmärtää taiteena eikä rikoksena</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Graffitit tulee ymmärtää taiteena eikä rikoksena</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">18.96</sumStat>
+      <sumStat type="stdev">36.321</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>7</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>74</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>69</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>16</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>34</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q3_11" intrvl="discrete" dcml="0" ID="Q3_11">
+      <labl level="variable">[q3_11] Oletko samaa vai eri mieltä seuraavien väitteiden suhteen: Netissä pitäisi voida vapaasti jakaa kaikkea musiikkia ilmaiseksi</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Netissä pitäisi voida vapaasti jakaa kaikkea musiikkia ilmaiseksi</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">15.26</sumStat>
+      <sumStat type="stdev">33.174</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>38</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>71</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>57</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>7</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>27</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q3_12" intrvl="discrete" dcml="0" ID="Q3_12">
+      <labl level="variable">[q3_12] Oletko samaa vai eri mieltä seuraavien väitteiden suhteen: On väärin jakaa tekijänoikeuslain alaista musiikkia netissä ilmaiseksi</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>On väärin jakaa tekijänoikeuslain alaista musiikkia netissä ilmaiseksi</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">15.06</sumStat>
+      <sumStat type="stdev">31.818</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>8</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>36</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>68</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>63</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>25</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q3_13" intrvl="discrete" dcml="0" ID="Q3_13">
+      <labl level="variable">[q3_13] Oletko samaa vai eri mieltä seuraavien väitteiden suhteen: Yhteiskunnan varojen ohjaaminen taiteeseen ja kulttuuriin on rahan tuhlausta</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Yhteiskunnan varojen ohjaaminen taiteeseen ja kulttuuriin on rahan tuhlausta</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">8.09</sumStat>
+      <sumStat type="stdev">23.037</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>34</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>66</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>88</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>12</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q4_1" intrvl="discrete" dcml="0" ID="Q4_1">
+      <labl level="variable">[q4_1] Mitkä seuraavista väitteistä sopivat kuvaamaan taiteen merkitystä: Taiteella voi vaikuttaa yhteiskunnan asioihin</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Taiteella voi vaikuttaa yhteiskunnan asioihin</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">11.43</sumStat>
+      <sumStat type="stdev">27.625</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>19</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>50</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>68</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>45</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>18</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q4_2" intrvl="discrete" dcml="0" ID="Q4_2">
+      <labl level="variable">[q4_2] Mitkä seuraavista väitteistä sopivat kuvaamaan taiteen merkitystä: Taide voi toimia kriittisten näkökulmien ilmaisukanavana</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Taide voi toimia kriittisten näkökulmien ilmaisukanavana</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">6.42</sumStat>
+      <sumStat type="stdev">17.691</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>6</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>31</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>101</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>55</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>7</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q4_3" intrvl="discrete" dcml="0" ID="Q4_3">
+      <labl level="variable">[q4_3] Mitkä seuraavista väitteistä sopivat kuvaamaan taiteen merkitystä: Taide tuottaa elämyksiä</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Taide tuottaa elämyksiä</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">2</sumStat>
+      <sumStat type="max">4</sumStat>
+      <sumStat type="mean">3.27</sumStat>
+      <sumStat type="stdev">.544</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>10</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>127</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>63</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q4_4" intrvl="discrete" dcml="0" ID="Q4_4">
+      <labl level="variable">[q4_4] Mitkä seuraavista väitteistä sopivat kuvaamaan taiteen merkitystä: Taide avaa uusia näkökulmia maailmaan</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Taide avaa uusia näkökulmia maailmaan</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">2</sumStat>
+      <sumStat type="max">4</sumStat>
+      <sumStat type="mean">3.15</sumStat>
+      <sumStat type="stdev">.596</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>23</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>125</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>52</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q4_5" intrvl="discrete" dcml="0" ID="Q4_5">
+      <labl level="variable">[q4_5] Mitkä seuraavista väitteistä sopivat kuvaamaan taiteen merkitystä: Taide ja kulttuuri voivat lähentää eri kansoja ja etnisiä ryhmiä</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Taide ja kulttuuri voivat lähentää eri kansoja ja etnisiä ryhmiä</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">2</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">6.53</sumStat>
+      <sumStat type="stdev">17.663</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>13</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>134</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>46</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>7</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q4_6" intrvl="discrete" dcml="0" ID="Q4_6">
+      <labl level="variable">[q4_6] Mitkä seuraavista väitteistä sopivat kuvaamaan taiteen merkitystä: Taide on tärkeä suomalaiselle identiteetille</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Taide on tärkeä suomalaiselle identiteetille</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">5.96</sumStat>
+      <sumStat type="stdev">16.418</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>2</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>31</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>111</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>50</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>6</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q4_7" intrvl="discrete" dcml="0" ID="Q4_7">
+      <labl level="variable">[q4_7] Mitkä seuraavista väitteistä sopivat kuvaamaan taiteen merkitystä: Taiteen harrastaminen kasvattaa itsetuntemusta</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Taiteen harrastaminen kasvattaa itsetuntemusta</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">7.39</sumStat>
+      <sumStat type="stdev">19.948</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>2</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>32</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>108</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>49</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>9</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q4_8" intrvl="discrete" dcml="0" ID="Q4_8">
+      <labl level="variable">[q4_8] Mitkä seuraavista väitteistä sopivat kuvaamaan taiteen merkitystä: Ilmaisu on perustarve</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Ilmaisu on perustarve</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">2</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">4.11</sumStat>
+      <sumStat type="stdev">9.578</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>21</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>126</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>51</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>2</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q4_9" intrvl="discrete" dcml="0" ID="Q4_9">
+      <labl level="variable">[q4_9] Mitkä seuraavista väitteistä sopivat kuvaamaan taiteen merkitystä: Taiteesta on taloudellista hyötyä</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Taiteesta on taloudellista hyötyä</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">2</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">17.29</sumStat>
+      <sumStat type="stdev">34.415</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>41</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>110</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>19</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>30</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q4_10" intrvl="discrete" dcml="0" ID="Q4_10">
+      <labl level="variable">[q4_10] Mitkä seuraavista väitteistä sopivat kuvaamaan taiteen merkitystä: Taiteesta ei tarvitse olla hyötyä, vaan se on itseisarvo</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Taiteesta ei tarvitse olla hyötyä, vaan se on itseisarvo</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">15.43</sumStat>
+      <sumStat type="stdev">32.396</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>5</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>43</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>84</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>42</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>26</catStat>
+      </catgry>
+      <notes/>
+    </var>
+    <var files="F1" name="Q4_11" intrvl="discrete" dcml="0" ID="Q4_11">
+      <labl level="variable">[q4_11] Mitkä seuraavista väitteistä sopivat kuvaamaan taiteen merkitystä: Taiteella ei ole merkitystä</labl>
+      <qstn>
+        <preQTxt/>
+        <qstnLit>Taiteella ei ole merkitystä</qstnLit>
+        <postQTxt/>
+        <ivuInstr/>
+      </qstn>
+      <valrng>
+        <range max="99" min="1"/>
+      </valrng>
+      <sumStat type="vald">200</sumStat>
+      <sumStat type="min">1</sumStat>
+      <sumStat type="max">99</sumStat>
+      <sumStat type="mean">8.70</sumStat>
+      <sumStat type="stdev">24.845</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl level="category">Täysin eri mieltä</labl>
+        <catStat>53</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl level="category">Jokseenkin eri mieltä</labl>
+        <catStat>100</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl level="category">Ei samaa eikä eri mieltä</labl>
+        <catStat>31</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl level="category">Jokseenkin samaa mieltä</labl>
+        <catStat>2</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl level="category">Täysin samaa mieltä</labl>
+        <catStat>0</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl level="category">Eos</labl>
+        <catStat>14</catStat>
+      </catgry>
+      <notes/>
+    </var>
+  </dataDscr>
+  <otherMat level="study">
+    <labl>Kyselylomake: pdf-tiedosto suomeksi</labl>
+  </otherMat>
+</codeBook>
