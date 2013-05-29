@@ -15,6 +15,7 @@ opener = urllib2.build_opener(redirect_handler,cookie_handler)
 cu = opener.open(request)
 
 OWL = Namespace('http://www.w3.org/2002/07/owl#')
+XSD = Namespace('http://www.w3.org/2001/XMLSchema#')
 SKOS = Namespace('http://www.w3.org/2004/02/skos/core#')
 DC = Namespace('http://purl.org/dc/elements/1.1/')
 DCT = Namespace('http://purl.org/dc/terms/')
@@ -33,13 +34,15 @@ NS = {
   'skos': SKOS,
   'rdfs': Namespace('http://www.w3.org/2000/01/rdf-schema#'),
   'owl': OWL,
-  'xsd': Namespace('http://www.w3.org/2001/XMLSchema#'),
+  'xsd': XSD,
   'schema': Namespace('http://schema.org/'),
   'void': VOID,
   'foaf': FOAF,
   'dcat': DCAT,
+  'lvont': Namespace('http://lexvo.org/ontology#'),
   'fp': FP,
   'arpfo': ARPFO,
+  'qb': Namespace('http://purl.org/linked-data/cube#'),
 }
 
 typemap = {
